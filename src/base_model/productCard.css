@@ -1,0 +1,23 @@
+.product-card{
+    border: 1px solid black;
+    box-shadow: black;
+    width: 200px;
+    height: 240px;
+    align-items: center;
+}
+
+.product-img{
+    width: 180px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buy-btn{
+    margin-left: 35px;
+    margin-right: 3%;
+}
+.cart-btn{
+    margin-left: 5%;
+}
+
+

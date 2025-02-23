@@ -1,0 +1,70 @@
+.nav-bar{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.heading{
+    margin-top: 1.5%;
+    margin-left: 8%;
+}
+
+.profile-btn{
+    border:1px solid black;
+    margin-top: 1.5%;
+    margin-left: 75%;
+    background-image: url("C:/VS_CODE FILES/practice_files/login_and_reg_setup/src/assets/default-profile-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.profile-btn {
+    background-image: url("C:/VS_CODE FILES/practice_files/login_and_reg_setup/src/assets/default-profile-img.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .profile-options {
+    position: absolute;
+    top: 50px; /* Adjust to position it below the profile button */
+    right: 10px; /* Align to the right */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-options li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .profile-options li:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+.greeting{
+    width:max;
+    height: 180px;
+}
+.products{
+    display: flex;
+    
+    margin-left: 50px;
+}
